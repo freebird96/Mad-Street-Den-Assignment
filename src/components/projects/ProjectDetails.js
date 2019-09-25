@@ -59,10 +59,10 @@ const ProjectDetails = (props) => {
                                 {
                                     project.ingredients!==""?project.ingredients.map((ingredient,index) => {
                                     return (
-                                        ingredient.name!==""&&ingredient.quanity!==""?
+                                        ingredient.name==""&&ingredient.quanity==""?'':
                                         <div className="ingredientsList">
                                             <li className="ingredientsList--item">{ingredient.quantity}{ingredient.name}</li>
-                                        </div>:''
+                                        </div>
                                         
                                     )}):''
                                 } 
