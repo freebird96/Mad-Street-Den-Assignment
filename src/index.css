@@ -1,0 +1,620 @@
+html{
+  min-height: 100%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  /* background: url(/img/background.png) no-repeat;
+  background-size: 100%;
+  background-position: center; */
+  background-color: #fafaf5;
+  height: 100%;
+}
+
+form{
+  padding: 20px;
+  /* margin-top: 30px; */
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------- */
+/* SIGN IN */
+/* ------------------------------------------------------------------------------------------------------------- */
+.signInContainer,
+.signUpContainer{
+  margin-top: 60px;
+  width: 50%;
+}
+
+.signInForm,
+.signUpForm{
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 30px;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------- */
+/* SIGN IN */
+/* ------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* SUMMARY DETAILS */
+/* ------------------------------------------------------------------------------------------------------------ */
+.summaryTitle{
+  text-transform: capitalize;
+}
+
+.summary-card-content{
+  background-color: beige;
+  padding: 0 20px;
+  margin-right: 15px;
+
+}
+
+.project-summary {
+  border-left: 3px solid rgb(160, 123, 54);
+  border-right: 1px solid orange;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding:20px 30px;
+
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-right: auto;
+  align-items: center;
+}
+
+.summaryImage{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    overflow: hidden;
+    background-color: rgb(226, 221, 221);
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.summaryImage--item{    
+    height: 100%;
+    width: auto;
+}
+
+
+/* ------------------------------------------------------------------------------------------- */
+/* CREATE RECIPE */
+/* -------------------------------------------------------------------------------------------- */
+
+.Addbutton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-container{
+  max-width: 50%;
+  margin-top: 30px;
+}
+
+
+.createRecipe--title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.createRecipe--titleText{
+  font-weight: 900;
+  color: rgb(81, 90, 81);
+  text-transform: capitalize;
+}
+.createRecipe--titleimageButton{
+  background-color: beige !important;
+  border:none;
+  width: 100%;
+  height: 100%;
+  /* height:auto; */
+  /* opacity: 0; */
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-form{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 30px;
+}
+
+.createIngredients{
+  background-color: rgb(255, 248, 226);
+  padding: 20px 30px;
+  border-radius: 30px;
+}
+
+.createInstructions{
+  background-color: rgb(255, 248, 226);
+  padding: 20px 30px;
+  border-radius: 30px;
+}
+
+.createInstructions--imageAddButton{
+  background-color: rgb(226, 255, 226) ;
+  border:none;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.primage{
+  height: 100px;
+  width: auto;
+  margin-top: 0px;
+}
+
+
+.createInstruction--removeButton--div{
+  display: flex;
+  justify-content: flex-end;
+}
+.createInstruction--removeButton{
+ 
+}
+
+.createInstruction--removeButton:hover{
+  background-color: rgb(255, 144, 162);
+}
+
+.createInstruction--removeButton:focus{
+  background-color:rgb(255, 202, 211) ;
+}
+
+.createForm--titles{
+  font-weight: 900;
+  color: rgb(236, 141, 18);
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.input-field{
+  padding: 0 30px;
+}
+
+
+.inputField{
+
+  margin-bottom: 10px;
+  border: 1px solid orange;
+  border-radius: 10px;
+  padding: 10px 30px;
+
+
+  display: flex;
+  justify-content:space-between;
+  align-content: center;
+}
+
+.inputField--button{
+  display: flex;
+  align-items: center;
+}
+
+.ingredientAdd {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 30px;
+}
+
+.imageSpace{
+  width: 100%;
+  padding: 0;
+  height: 400px;
+  /* padding: 90px; */
+  background-color: beige;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputField--content input::-webkit-input-placeholder{
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0 5px;
+  /* color: rgb(177, 177, 177); */
+}
+
+.uploadArea {
+  height: 250px;
+  width: 250px;
+  
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------- */
+/* RECIPE DETAILS */
+/* --------------------------------------------------------------------------------------------------- */
+
+.buttons{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.button{
+  background-color: rgb(255, 81, 81);
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background-color: red;
+}
+
+.container-project-details{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+}
+
+.card-content{
+  /* padding: 30px; */
+  padding: 2px;
+  /* border: 2px solid black; */
+  background-color: rgb(247, 247, 234);
+}
+
+.card-display{
+  padding: 30px;
+}
+
+.card-title{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.card-title__text{
+  font-weight: 800;
+  text-transform: uppercase;
+  color: green;
+  text-align: center;
+}
+
+.details-card{
+  width: 50%;
+  margin: 50px 0;
+}
+
+.recipeImage {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(237, 238, 237);
+}
+
+.recipeImage--pic{
+  height: 100%;
+  max-height: 400px;
+  width: auto;
+}
+
+.recipe-description {
+  
+}
+
+.heading{
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(190, 190, 190);
+}
+
+.ingredientsList {
+  padding-left: 40px;
+}
+
+.ingredientsList:last-child{
+  margin-bottom: 20px;
+}
+
+.ingredientsList--item{
+  text-decoration: none;
+  list-style: none;
+}
+
+.instructions{  
+  /* padding-left: 10px; */
+  position: relative;
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.instructions::before{
+  position: absolute;
+  content: "" attr(value) "";
+  font-size: 14px;
+  font-weight: 600;
+  background-color: rgb(99, 26, 26);
+  padding: 10px;
+  border-radius: 4px;
+  height: 24px;
+  width: 24px;
+  float: left;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instructionsList {
+  padding-left: 30px;
+  width: 100%;
+}
+
+.instructionsList--item{
+  /* margin: 0; */
+}
+
+.subpart{
+  margin: 0;
+  border-bottom: 1px solid rgb(241, 156, 106);
+  /* border-radius: 50px; */
+}
+
+
+/* ------------------------------------------------------------------------------------------------------ */
+/* EDIT DETAILS */
+/* ------------------------------------------------------------------------------------------------------ */
+.editForm__details{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 20px;
+}
+
+.editIngredientsList{
+  display: grid;
+  grid-template-columns: repeat(2,1fr) 30px;
+  align-items: center;
+  grid-column-gap: 5px;
+}
+
+.editAddButton{
+  /* border-radius: 100% !important;
+  background-color: green !important;
+  height: 30px !important;
+  width: 30px !important; */
+  float: left;
+}
+
+.Edit__button,
+.Edit__button:hover,
+.Edit_button:focus{
+  background-color: beige !important;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* NOTIFICATION SECTION */
+/* ------------------------------------------------------------------------------------------------------------ */
+
+.notificationCard{
+  background-color: rgb(255, 221, 157);
+  border-radius: 40px !important;
+}
+
+.notification--title{
+  font-weight: 700;
+  text-align: center;
+  color: rgb(255, 73, 73);
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+
+.notificationsList{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 5px;
+  grid-template-rows: repeat(4,1fr);
+  min-height: 200px;
+  align-items: center;
+}
+
+.notificationList--item{
+  background-color: #fff;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-left: 2px solid grey;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  padding-left: 10px;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+/* PROFILE SECTION */
+/* --------------------------------------------------------------------------------------------------------- */
+
+.aboutme{
+  border-top: 2px solid rgb(153, 153, 153);
+
+  justify-self: stretch;
+
+  /* display: grid; */
+  /* grid-template-columns: 1fr; */
+}
+
+.aboutme--content{
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+.aboutme--title{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.aboutme--para{
+  text-align: justify;
+  text-indent: 30px;
+}
+
+.basic-details{
+  /* background-color: white; */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 30px;
+  justify-items: center;
+  padding: 20px 30px;
+}
+
+.editinfo{
+  display: grid;
+  grid-template-columns: 1fr;
+  /* grid-template-rows: repeat( min-content,3); */
+  grid-row-gap: 0px;
+  justify-self: flex-start;
+}
+
+.editButton--editInfo{
+  font-weight: 600;
+  font-size: 15x;
+}
+
+.profileEdit--button,
+.profileEdit--button:hover{
+  background-color: beige !important;
+  border: 1px solid beige !important;
+  box-shadow: 5px 5px 2px rgb(201, 201, 165) !important;
+}
+
+.profileEdit--button:focus{
+  background-color: beige !important;
+  border: 1px solid beige !important;
+  box-shadow: 0px 0px 2px rgb(201, 201, 165) !important;
+}
+
+.major-details{
+  /* background-color: lightblue; */
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content;
+  grid-row-gap: 30px;
+}
+
+.nameDetails{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 7px;
+  justify-self: flex-start;
+  align-self: center;
+}
+
+.picNbutton{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 10px;
+  justify-content: center;
+}
+
+.profileEditForm{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 25px;
+  
+}
+
+.profileImage{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.profileImage-img{
+  height: 150px;
+  width: auto;
+  justify-self: center;
+  align-self: center;
+}
+
+.profile-section{
+  padding: 60px 150px;
+  /* height: 92.5vh; */
+  background-color: rgb(255, 255, 233);
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  grid-column-gap: 20px;
+}
+
+.username{
+  margin: 0;
+  padding: 0;
+  font-size: 26px;
+  font-weight: 900;
+
+  display: flex;
+  align-items: center;
+}
+
+.usermailId{
+  margin:0;
+  padding: 0;
+  color: rgb(161, 161, 161);
+  font-size: 18px;
+
+  display: flex;
+  align-items: center;
+}
+
+.workExperience,
+.box{
+  background-color: white;
+  box-shadow: 2px 2px 20px rgb(228, 228, 228);
+  border-radius: 30px;  
+  padding: 30px;
+}
+
+.workExperience--title{
+  color: rgb(179, 179, 179);
+  text-transform: capitalize;
+  font-size: 26px;
+}
+
+.workExperience--para{
+  text-indent: 30px;
+  text-align: justify;
+}
+
+.educationDetails{
+  background-color: white;
+}
