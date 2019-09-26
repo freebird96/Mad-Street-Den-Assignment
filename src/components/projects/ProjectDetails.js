@@ -61,7 +61,7 @@ const ProjectDetails = (props) => {
                                     return (
                                         ingredient.name==""&&ingredient.quanity==""?'':
                                         <div className="ingredientsList">
-                                            <li className="ingredientsList--item">{ingredient.quantity}{ingredient.name}</li>
+                                            <li className="ingredientsList--item">{ingredient.quantity} {ingredient.name}</li>
                                         </div>
                                         
                                     )}):''
