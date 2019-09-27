@@ -255,7 +255,7 @@ class EditDetails extends Component {
                                                     <TextField
                                                         name= "name"
                                                         type = "text"
-                                                        label= "Item Name"
+                                                        label= {`Instruction ${index+1}`}
                                                         multiline 
                                                         // rows = "2"
                                                         placeholder = "The title of the recipe"
